@@ -1,0 +1,132 @@
+:root {
+  --primary-color: #4d5ae5;
+  --selected-color: #404bbf;
+  --dark-background: #2e2f42;
+  --light-text-color: #f4f4fd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+  background: #fff;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+h2,
+h3 {
+  line-height: 1.2;
+  color: var(--dark-background);
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.primary-button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: var(--primary-color);
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.primary-button:hover,
+.primary-button:focus {
+  background-color: var(--selected-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-background);
+}
+
+.logo.logo-footer {
+  color: var(--light-text-color);
+}
+
+.logo-first-word {
+  color: var(--primary-color);
+}
+
+.header-nav li:hover,
+.header-nav li:focus {
+  color: var(--selected-color);
+}
+
+.header-contact-list li:hover,
+.header-contact-list li:focus {
+  color: var(--selected-color);
+}
+
+.hero-section {
+  background: var(--dark-background);
+}
+
+.team-section {
+  background: var(--light-text-color);
+}
+
+.team-list-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+.footer-section {
+  background: var(--dark-background);
+  color: var(--light-text-color);
+}
