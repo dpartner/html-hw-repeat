@@ -18,58 +18,70 @@
   </head>
   <body>
     <header class="heading">
-      <nav class="header-nav">
-        <a class="logo" href="index.html"
-          ><span class="logo-first-word">WEB</span>STUDIO</a
-        >
-        <ul>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
-      </nav>
-      <ul class="header-contact-list">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      <section class="header-section">
+        <div class="container">
+          <nav class="header-nav">
+            <a class="logo" href="index.html"
+              ><span class="logo-first-word">WEB</span>STUDIO</a
+            >
+            <ul class="header-nav-list">
+              <li class="header-nav-list-item"><a href="#">Studio</a></li>
+              <li class="header-nav-list-item"><a href="#">Portfolio</a></li>
+              <li class="header-nav-list-item"><a href="#">Contacts</a></li>
+            </ul>
+          </nav>
+          <ul class="header-contact-list">
+            <li class="header-contact-list-item">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="header-contact-list-item">
+              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </header>
     <main>
-      <section class="hero-section">
-        <h1>Effective Solutions for Your Business</h1>
-        <button class="primary-button" type="button">Order Service</button>
+      <section class="section hero-section">
+        <div class="container">
+          <h1 class="hero-heading">Effective Solutions for Your Business</h1>
+          <button class="primary-button" type="button">Order Service</button>
+        </div>
       </section>
-      <section class="benefits">
-        <h2>Наші переваги</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class="section benefits">
+        <div class="container">
+          <h2 class="benefits-heading">Наші переваги</h2>
+          <ul class="benefits-list">
+            <li class="benefits-list-item">
+              <h3>Strategy</h3>
+              <p>
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="benefits-list-item">
+              <h3>Punctuality</h3>
+              <p>
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="benefits-list-item">
+              <h3>Diligence</h3>
+              <p>
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="benefits-list-item">
+              <h3>Technologies</h3>
+              <p>
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- <section class="works">
         <h2>Чим ми займаємося</h2>
@@ -97,114 +109,148 @@
           </li>
         </ul>
       </section> -->
-      <section class="team-section">
-        <h2>Our Team</h2>
-        <ul class="team-list">
-          <li class="team-list-item">
-            <img src="./images/team_1.jpg" alt="Мужик з бородою" width="270" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li class="team-list-item">
-            <img
-              src="./images/team_2.jpg"
-              alt="Дівчина в окулярах"
-              width="270"
-            />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li class="team-list-item">
-            <img
-              src="./images/team_3.jpg"
-              alt="Мужик з білою посмішкою"
-              width="270"
-            />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li class="team-list-item">
-            <img src="./images/team_4.jpg" alt="Мужик в окулярах" width="270" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
+      <section class="section team-section">
+        <div class="container">
+          <h2>Our Team</h2>
+          <ul class="team-list">
+            <li class="team-list-item">
+              <img
+                src="./images/team_1.jpg"
+                alt="Мужик з бородою"
+                width="270"
+              />
+              <div class="team-card-text-wrap">
+                <h3>Mark Guerrero</h3>
+                <p>Product Designer</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                src="./images/team_2.jpg"
+                alt="Дівчина в окулярах"
+                width="270"
+              />
+              <div class="team-card-text-wrap">
+                <h3>Tom Ford</h3>
+                <p>Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                src="./images/team_3.jpg"
+                alt="Мужик з білою посмішкою"
+                width="270"
+              />
+              <div class="team-card-text-wrap">
+                <h3>Camila Garcia</h3>
+                <p>Marketing</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                src="./images/team_4.jpg"
+                alt="Мужик в окулярах"
+                width="270"
+              />
+              <div class="team-card-text-wrap">
+                <h3>Daniel Wilson</h3>
+                <p>UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="portfolio-section">
-        <h2>Our Portfolio</h2>
-        <ul class="portfolio-list">
-          <li class="portfolio-list-item">
-            <img
-              src="./images/prtf-1.jpg"
-              alt="app vision"
-              width="360px"
-              height="300px"
-            />
-            <h3>Banking App</h3>
-            <p>App</p>
-          </li>
-          <li class="portfolio-list-item">
-            <img
-              src="./images/prtf-2.jpg"
-              alt="phone pay"
-              width="360px"
-              height="300px"
-            />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
-          </li>
-          <li class="portfolio-list-item">
-            <img
-              src="./images/prtf-3.jpg"
-              alt="laptop and phone"
-              width="360px"
-              height="300px"
-            />
-            <h3>Meditation App</h3>
-            <p>App</p>
-          </li>
-          <li class="portfolio-list-item">
-            <img
-              src="./images/prtf-4.jpg"
-              alt="wihicle"
-              width="360px"
-              height="300px"
-            />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
-          </li>
-          <li class="portfolio-list-item">
-            <img
-              src="./images/prtf-5.jpg"
-              alt="app illustration"
-              width="360px"
-              height="300px"
-            />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
-          </li>
-          <li class="portfolio-list-item">
-            <img
-              src="./images/prtf-6.jpg"
-              alt="smilling girl"
-              width="360px"
-              height="300px"
-            />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
-          </li>
-        </ul>
+      <section class="section portfolio-section">
+        <div class="container">
+          <h2>Our Portfolio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-list-item">
+              <img
+                src="./images/prtf-1.jpg"
+                alt="app vision"
+                width="360px"
+                height="300px"
+              />
+              <div class="portfolio-card-text-wrap">
+                <h3>Banking App</h3>
+                <p>App</p>
+              </div>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/prtf-2.jpg"
+                alt="phone pay"
+                width="360px"
+                height="300px"
+              />
+              <div class="portfolio-card-text-wrap">
+                <h3>Cashless Payment</h3>
+                <p>Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/prtf-3.jpg"
+                alt="laptop and phone"
+                width="360px"
+                height="300px"
+              />
+              <div class="portfolio-card-text-wrap">
+                <h3>Meditation App</h3>
+                <p>App</p>
+              </div>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/prtf-4.jpg"
+                alt="wihicle"
+                width="360px"
+                height="300px"
+              />
+              <div class="portfolio-card-text-wrap">
+                <h3>Taxi Service</h3>
+                <p>Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/prtf-5.jpg"
+                alt="app illustration"
+                width="360px"
+                height="300px"
+              />
+              <div class="portfolio-card-text-wrap">
+                <h3>Screen Illustrations</h3>
+                <p>Design</p>
+              </div>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/prtf-6.jpg"
+                alt="smilling girl"
+                width="360px"
+                height="300px"
+              />
+              <div class="portfolio-card-text-wrap">
+                <h3>Online Courses</h3>
+                <p>Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer>
-      <section class="footer-section">
-        <a class="logo logo-footer" href="index.html"
-          ><span class="logo-first-word">WEB</span>STUDIO</a
-        >
-        <p>
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+      <section class="section footer-section">
+        <div class="container">
+          <a class="logo logo-footer" href="index.html"
+            ><span class="logo-first-word">WEB</span>STUDIO</a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
       </section>
     </footer>
   </body>
